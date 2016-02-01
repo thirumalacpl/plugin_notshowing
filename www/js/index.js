@@ -26,7 +26,7 @@ var app = {
             "windows": {} 
         });
 
-
+alert('ad');
     push.on('registration', function(data) {
         alert('to database');
         console.log("registration event");

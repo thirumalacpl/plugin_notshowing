@@ -34,5 +34,13 @@
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
+            <script type="text/javascript">
+        document.addEventListener("deviceready", function(){
+   console.log('device ready');
+   alert('ddd');
+   // place your phonegap related code in here
+}, false);
+            app.initialize();
+        </script>
     </body>
 </html>
